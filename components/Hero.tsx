@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
   }, [text, isDeleting, loopNum]);
 
   return (
-    <section id="home" className="relative w-full bg-gray-50 pt-6 pb-24 md:pt-32 md:pb-48 overflow-hidden">
+    <section id="home" className="relative w-full bg-white md:bg-gray-50 pt-6 pb-24 md:pt-32 md:pb-48 overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
@@ -115,16 +115,16 @@ const Hero: React.FC = () => {
                 Harare, Zimbabwe
               </div>
 
+              {/* Mobile Only: Image Carousel moved to top */}
+              <div className="block lg:hidden w-full mb-8">
+                 <ImageCarousel currentSlide={currentSlide} setCurrentSlide={setCurrentSlide} />
+              </div>
+
               {/* Reduced font size for mobile to ensure 2 lines */}
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-brand-primary leading-[1.1] mb-8 lg:mb-4 tracking-tight">
                 PROFESSIONAL <br />
                 AUTO <span className="text-brand-accent">ELECTRONICS</span>
               </h1>
-
-              {/* Mobile Only: Image Carousel between Title and Subtitle */}
-              <div className="block lg:hidden w-full mb-8">
-                 <ImageCarousel currentSlide={currentSlide} setCurrentSlide={setCurrentSlide} />
-              </div>
 
               {/* Typewriter Effect - Reduced Font Size for Mobile */}
               <div className="h-12 mb-8 flex items-center text-xl sm:text-3xl md:text-4xl font-bold text-gray-600 whitespace-nowrap">

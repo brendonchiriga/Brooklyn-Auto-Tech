@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
              />
           </div>
           <p className="text-sm font-medium">Copyright © {new Date().getFullYear()} Brooklyn Auto Electronics. All rights reserved.</p>
-          <p className="text-xs text-gray-400 mt-2">Designed by Brend Creative - 0771 293 944</p>
+          <p className="text-xs text-gray-400 mt-2">Designed by Brend Creative - 0771 293 944 / 0777 177 80</p>
         </div>
         
         <div className="flex items-center gap-6">
