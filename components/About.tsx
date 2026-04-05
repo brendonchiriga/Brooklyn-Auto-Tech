@@ -41,7 +41,7 @@ const About: React.FC = () => {
 
           {/* Text Section */}
           <div className="lg:w-1/2">
-             <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-accent/10 text-brand-accent rounded-full text-[10px] font-extrabold tracking-[0.2em] uppercase mb-6">
+             <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-secondary/10 text-brand-secondary rounded-full text-[10px] font-extrabold tracking-[0.2em] uppercase mb-6">
                 <Settings size={12} /> About The Workshop
              </div>
              
@@ -54,14 +54,14 @@ const About: React.FC = () => {
                     Based in Harare, Brooklyn Auto Electronics is an independent service dedicated to raising the standard of aftermarket installations.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                    Unlike general mechanics, we specialise specifically in <strong className="text-brand-accent">electronic integration</strong>. Whether it's a security system to protect your asset or a multimedia upgrade for your comfort, we treat every vehicle with the respect it deserves, strictly following manufacturer guidelines.
+                    Unlike general mechanics, we specialise specifically in <strong className="text-brand-secondary">electronic integration</strong>. Whether it's a security system to protect your asset or a multimedia upgrade for your comfort, we treat every vehicle with the respect it deserves, strictly following manufacturer guidelines.
                 </p>
              </div>
 
              {/* Feature Grid */}
              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-                 <div className="flex flex-col gap-3 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-brand-accent/30 hover:bg-white hover:shadow-lg transition-all duration-300 group">
-                    <div className="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-brand-accent shadow-sm group-hover:bg-brand-accent group-hover:text-brand-primary transition-colors">
+                 <div className="flex flex-col gap-3 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-brand-green/30 hover:bg-white hover:shadow-lg transition-all duration-300 group">
+                    <div className="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-brand-green shadow-sm group-hover:bg-brand-green group-hover:text-white transition-colors">
                         <Zap size={24} />
                     </div>
                     <div>
@@ -70,8 +70,8 @@ const About: React.FC = () => {
                     </div>
                  </div>
                  
-                 <div className="flex flex-col gap-3 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-brand-accent/30 hover:bg-white hover:shadow-lg transition-all duration-300 group">
-                    <div className="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-brand-accent shadow-sm group-hover:bg-brand-accent group-hover:text-brand-primary transition-colors">
+                 <div className="flex flex-col gap-3 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-brand-green/30 hover:bg-white hover:shadow-lg transition-all duration-300 group">
+                    <div className="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-brand-green shadow-sm group-hover:bg-brand-green group-hover:text-white transition-colors">
                         <ShieldCheck size={24} />
                     </div>
                     <div>

@@ -34,7 +34,7 @@ const HowItWorks: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
             <h2 className="text-3xl font-extrabold text-brand-primary">HOW IT WORKS</h2>
-            <div className="h-1 w-20 bg-brand-accent mx-auto mt-4"></div>
+            <div className="h-1 w-20 bg-brand-secondary mx-auto mt-4"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -45,7 +45,7 @@ const HowItWorks: React.FC = () => {
                         <div className="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gray-200 -z-10"></div>
                     )}
                     
-                    <div className="w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full flex items-center justify-center text-gray-400 group-hover:border-brand-accent group-hover:text-brand-accent transition-all duration-300 mb-6 z-10 relative">
+                    <div className="w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full flex items-center justify-center text-gray-400 group-hover:border-brand-green group-hover:text-brand-green transition-all duration-300 mb-6 z-10 relative">
                         {step.icon}
                     </div>
                     

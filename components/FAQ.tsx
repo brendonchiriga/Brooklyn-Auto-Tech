@@ -17,10 +17,10 @@ const FAQ: React.FC = () => {
         
         <div className="space-y-4">
             {faqs.map((item, idx) => (
-                <div key={idx} className="border border-gray-200 rounded-lg p-6 hover:border-brand-accent transition-colors cursor-pointer group">
+                <div key={idx} className="border border-gray-200 rounded-lg p-6 hover:border-brand-secondary transition-colors cursor-pointer group">
                     <div className="flex justify-between items-center">
                         <h3 className="font-bold text-gray-900 pr-8">{item.q}</h3>
-                        <Plus className="text-gray-400 group-hover:text-brand-accent shrink-0" size={20} />
+                        <Plus className="text-gray-400 group-hover:text-brand-secondary shrink-0" size={20} />
                     </div>
                     <p className="text-gray-500 mt-3 text-sm hidden group-hover:block animate-in fade-in slide-in-from-top-2">
                         {item.a}

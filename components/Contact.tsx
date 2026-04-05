@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
       
       {/* Deep Rich Background */}
       <div className="absolute inset-0 bg-brand-primary"></div>
-      <div className="absolute inset-0 bg-gradient-to-b from-brand-primary via-[#11083d] to-black"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-brand-primary via-brand-secondary to-black"></div>
       
       {/* Tech Grid Pattern */}
       <div className="absolute inset-0 opacity-[0.05]" 
@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
              
              <h2 className="text-4xl md:text-6xl font-extrabold leading-tight mb-8 text-white">
                 READY TO <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent via-yellow-200 to-brand-accent drop-shadow-sm">UPGRADE?</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent via-brand-green to-brand-accent drop-shadow-sm">UPGRADE?</span>
              </h2>
              
              <p className="text-gray-300 mb-16 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* Location */}
                 <div className="flex flex-col items-center p-8 bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 hover:border-brand-accent/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-2 group">
-                    <div className="w-16 h-16 bg-gradient-to-br from-gray-800 to-black rounded-full flex items-center justify-center text-brand-accent mb-6 group-hover:from-brand-accent group-hover:to-yellow-500 group-hover:text-brand-primary transition-all shadow-xl border border-white/10">
+                    <div className="w-16 h-16 bg-gradient-to-br from-gray-800 to-black rounded-full flex items-center justify-center text-brand-accent mb-6 group-hover:from-brand-accent group-hover:to-brand-green group-hover:text-brand-primary transition-all shadow-xl border border-white/10">
                         <MapPin size={28} />
                     </div>
                     <h4 className="font-bold text-xl mb-3 text-white">Visit Workshop</h4>
@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
 
                 {/* Phone */}
                 <div className="flex flex-col items-center p-8 bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 hover:border-brand-accent/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-2 group">
-                    <div className="w-16 h-16 bg-gradient-to-br from-gray-800 to-black rounded-full flex items-center justify-center text-brand-accent mb-6 group-hover:from-brand-accent group-hover:to-yellow-500 group-hover:text-brand-primary transition-all shadow-xl border border-white/10">
+                    <div className="w-16 h-16 bg-gradient-to-br from-gray-800 to-black rounded-full flex items-center justify-center text-brand-accent mb-6 group-hover:from-brand-accent group-hover:to-brand-green group-hover:text-brand-primary transition-all shadow-xl border border-white/10">
                         <Phone size={28} />
                     </div>
                     <h4 className="font-bold text-xl mb-3 text-white">Call Us</h4>
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
 
                 {/* Email */}
                 <div className="flex flex-col items-center p-8 bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 hover:border-brand-accent/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-2 group">
-                    <div className="w-16 h-16 bg-gradient-to-br from-gray-800 to-black rounded-full flex items-center justify-center text-brand-accent mb-6 group-hover:from-brand-accent group-hover:to-yellow-500 group-hover:text-brand-primary transition-all shadow-xl border border-white/10">
+                    <div className="w-16 h-16 bg-gradient-to-br from-gray-800 to-black rounded-full flex items-center justify-center text-brand-accent mb-6 group-hover:from-brand-accent group-hover:to-brand-green group-hover:text-brand-primary transition-all shadow-xl border border-white/10">
                         <Mail size={28} />
                     </div>
                     <h4 className="font-bold text-xl mb-3 text-white">Email Us</h4>

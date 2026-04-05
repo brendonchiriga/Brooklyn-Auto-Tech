@@ -60,7 +60,7 @@ const Stats: React.FC = () => {
         <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-gray-900">
             {/* Deep Rich Background - Same as Contact */}
             <div className="absolute inset-0 bg-brand-primary"></div>
-            <div className="absolute inset-0 bg-gradient-to-b from-brand-primary via-[#11083d] to-black"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-brand-primary via-brand-secondary to-black"></div>
             
             {/* Tech Grid Pattern */}
             <div className="absolute inset-0 opacity-[0.05]" 

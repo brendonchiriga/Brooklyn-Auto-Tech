@@ -154,7 +154,7 @@ const Hero: React.FC = () => {
 
               {/* Decorative elements behind image */}
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-brand-accent/10 rounded-full blur-3xl -z-10"></div>
-              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl -z-10"></div>
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-brand-secondary/20 rounded-full blur-3xl -z-10"></div>
            </div>
 
         </div>
